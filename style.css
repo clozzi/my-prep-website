@@ -3,18 +3,20 @@ body {
     font-family: Arial;
 }
 
-h1 {
-    text-align: center;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
     float: left;
+    border-right: 1 px solid #bbb;
 }
 
 a {
@@ -33,4 +35,8 @@ li a {
 
 li a:hover {
     background-color: white;
+}
+
+.active {
+    background-color: blueviolet;
 }
