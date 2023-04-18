@@ -14,25 +14,25 @@ ul.a {
     width: 100%;
 }
 
-ul.a.li {
+ul.a li {
     float: left;
     border-right: 1 px solid green;
 }
 
-ul.a.a {
+ul.a a {
     display: block;
     padding: 8px;
     background-color: green;
 }
 
-ul.a.li a {
+ul.a li a {
     display: block;
     color: black;
     padding: 14 px 16 px;
     text-decoration: none;
 }
 
-ul.a.li a:hover {
+ul.a li a:hover {
     background-color: white;
 }
 
@@ -42,6 +42,7 @@ ul.a.li a:hover {
 
 h1 {
     text-align: center;
+    float: inherit;
 }
 
 p {
