@@ -3,7 +3,7 @@ body {
     font-family: Arial;
 }
 
-ul {
+ul.a {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,25 +14,25 @@ ul {
     width: 100%;
 }
 
-li {
+ul.a.li {
     float: left;
     border-right: 1 px solid green;
 }
 
-a {
+ul.a.a {
     display: block;
     padding: 8px;
     background-color: green;
 }
 
-li a {
+ul.a.li a {
     display: block;
     color: black;
     padding: 14 px 16 px;
     text-decoration: none;
 }
 
-li a:hover {
+ul.a.li a:hover {
     background-color: white;
 }
 
