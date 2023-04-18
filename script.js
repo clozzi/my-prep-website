@@ -1,4 +1,1 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
+const projects = ['Phase 0', 'Phase 1', 'Phase 2'];
