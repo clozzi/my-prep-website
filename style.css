@@ -22,3 +22,15 @@ a {
     padding: 8px;
     background-color: green;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
