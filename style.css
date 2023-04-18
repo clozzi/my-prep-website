@@ -16,7 +16,7 @@ ul {
 
 li {
     float: left;
-    border-right: 1 px solid #bbb;
+    border-right: 1 px solid green;
 }
 
 a {
@@ -27,8 +27,7 @@ a {
 
 li a {
     display: block;
-    color: white;
-    text-align: center;
+    color: black;
     padding: 14 px 16 px;
     text-decoration: none;
 }
@@ -39,4 +38,12 @@ li a:hover {
 
 .active {
     background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
